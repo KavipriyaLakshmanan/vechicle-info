@@ -1,0 +1,10 @@
+{
+  "title": "Operating Card Details",
+  "ownerInfo": "Owner / Co-Owner Info",
+  "cardInfo": "Operation Card Info",
+"vehicleInfo": "Vehicle Info",
+  "maker": "Maker",
+  "model": "Model",
+  "plateNumber": "Plate Number",
+  "color": "Color",
+  "year": "Model Year"}

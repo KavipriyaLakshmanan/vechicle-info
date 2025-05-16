@@ -1,0 +1,129 @@
+body {
+  background-color: #f8f9f9;
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif;
+  direction: rtl;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  margin-left: auto;
+  padding: 40px 80px;
+  box-sizing: border-box;
+}
+
+.custom-title {
+  color: #01527A;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: right;
+  width: 100%;
+  font-family: "Cairo", Sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.bordered-content { 
+  border: 1px solid #ccc; 
+  padding: 30px; 
+  border-radius: 5px; 
+  background-color: #ffffff; /* <mark>Optional: Add background color</mark> */
+  width: 100%; /* <mark>Take full width of the container</mark> */
+  box-sizing: border-box;
+}
+
+.info-section {
+  margin-bottom: 15px;
+  padding: 20px 15px; /* <mark>Adjust vertical padding within sections</mark> */
+  box-sizing: border-box;
+}
+
+
+
+.subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #01527A;
+  margin-bottom: 10px;
+  text-align: right;
+  padding-bottom: 5px;
+}
+
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  min-width: 200px;
+  margin-bottom: 10px;
+}
+
+.info-label {
+  font-size: 20px;
+  color: #a7bac0;
+  margin-bottom: 15px;
+  text-align: right;
+  font-weight: bolder;
+}
+
+.info-value {
+  font-weight: bolder;
+  font-size: 16px;
+  color: #000;
+}
+
+
+.divider {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 15px 0; /* <mark>Adjust divider margin</mark> */
+  width: 100%;
+}
+
+.info-grid-horizontal { /* <mark>New grid layout for horizontal alignment</mark> */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto)); /* <mark>Arrange items in columns</mark> */
+  gap: 10px 20px; 
+  width: 100%;
+  /* direction: rtl; <mark>Align items to the right</mark> */
+}
+
+.info-item { /* <mark>Style for each label-value pair</mark> */
+  display: flex;
+  flex-direction: column; /* <mark>Place label on the right of value</mark> */
+  width: fit-content; /* <mark>Make item width fit content</mark> */
+}
+
+.info-label {
+  font-size: 14px;
+  color: #a7bac0;
+  text-align: right;
+}
+
+.info-value {
+  font-weight: normal;
+  font-size: 16px;
+  color: #000;
+  text-align: right;
+}
+
+.custom-button { /* <mark>Basic button styling - adjust as needed</mark> */
+     background-color: #FFFFFF;
+    font-family: "Cairo", Sans-serif;
+    font-size: 13px;
+    fill: #0D6EFD;
+    color: #0D6EFD;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #0D6EFD;
+    border-radius: 5px 5px 5px 5px;
+    padding: 9px 40px 10px 40px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
