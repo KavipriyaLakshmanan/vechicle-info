@@ -27,7 +27,7 @@ const App = () => {
             </div>
             <div className="info-item"> 
               <div className="info-label">{isArabic ? 'الاسم' : 'Name'}</div>
-              <div className="info-value">ARSALAN HUSSAIN MAZHARHUSSAINSHAKH</div>
+              <div className="info-value">{t('name')}</div>
             </div>
           </div>
         </div>
